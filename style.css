@@ -61,6 +61,10 @@ html, body {
     padding-left: 16px;
 }
 
+.hidden-icons {
+    display: none;
+}
+
 #banner {
     display: flex;
     gap: 24px;
@@ -213,6 +217,10 @@ html, body {
     font-weight: 400;
 }
 
+.course-list {
+    display: none;
+}
+
 #thesis {
     border-bottom: .5px solid rgb(204, 199, 199);
 }
@@ -291,4 +299,146 @@ footer {
 
 .terms p {
     padding-left: 16px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .brand, .menu {
+        display: none;
+    }
+
+    .hidden-icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #banner {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #banner img {
+        width: 100%;
+    }
+
+    .start {
+        padding: 32px 16px;
+        width: 100%;
+    }
+
+    .start input {
+        background-color: var(--light-grey);
+    }
+
+    #school .feat-lg {
+        display: none;
+    }
+
+    #school .feat-sm {
+        border-left: none;
+        width: 100%;
+    }
+
+    .feat-sm .info-card {
+        flex-direction: column;
+        padding: 32px 16px 32px 16px;
+        align-items: flex-start;
+    }
+
+    .selected {
+        background-color: white;
+    }
+
+    .info-card img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .card-text {
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    .card-text h3 {
+        font-size: 2rem;
+        padding-bottom: 16px;
+    }
+
+    .card-text p {
+        font-size: 1.5rem;
+        line-height: 32px;
+        padding-bottom: 16px;
+    }
+
+    .card-text a {
+        font-size: 1.2rem;
+    }
+
+    #courses {
+        display: none;
+    }
+
+    .course-list {
+        display: block;
+        padding-bottom: 32px;
+        border-top: .5px solid rgb(204, 199, 199);
+        border-bottom: .5px solid rgb(204, 199, 199);
+    }
+
+    .course-list h1 {
+        text-align: center;
+        margin: 32px 16px 16px 16px;
+    }
+
+    .course-list .mobile-view-course {
+        padding: 16px 16px 24px 16px;
+        font-size: 2rem;
+        color: var(--dark-grey);
+        background-color: var(--background-grey);
+        margin: 0 16px 8px 16px;
+        font-weight: bold;
+    }
+
+    #thesis h1 {
+        font-size: 2rem;
+    }
+
+    .thesis-disp {
+        display: block;
+    }
+
+    .others {
+        display: none;
+    }
+
+    .thesis-disp .exhibit {
+        width: 100%;
+    }
+
+    .exhibit h2, .exhibit p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .brand, .menu {
+        display: none;
+    }
+
+    .hidden-icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hidden-icons img {
+        padding-right: 20%;
+    }
+
+    .hidden-icons img:nth-child(4) {
+        padding-right: 0;
+    }
 }
