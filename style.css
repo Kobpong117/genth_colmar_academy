@@ -108,7 +108,7 @@ html, body {
     max-width: 100%;
 }
 
-.feat-lg h1 {
+.feat-lg h2 {
     font-size: 1.8rem;
     padding-top: 32px;
     padding-bottom: 24px;;
@@ -160,7 +160,7 @@ html, body {
     color: #00a8e8;
 }
 
-.info-card.selected {
+.selected {
     background-color: var(--background-grey);
 }
 
@@ -171,7 +171,7 @@ html, body {
 #courses h1 {
     font-size: 1.8rem;
     text-align: center;
-    padding: 32px 0;
+    padding-bottom: 32px;
     color: var(--dark-grey);
 }
 
@@ -211,3 +211,56 @@ html, body {
     font-weight: 400;
 }
 
+#thesis {
+    border-bottom: .5px solid rgb(204, 199, 199);
+}
+
+#thesis h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 32px;
+    color: var(--dark-grey);
+}
+
+.thesis-disp {
+    display: flex;
+    gap: 24px;
+}
+
+.thesis-disp .exhibit {
+    width: 60%;
+}
+
+.exhibit iframe {
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 24px;
+}
+
+.exhibit h2 {
+    font-size: 1.8rem;
+    padding-bottom: 8px;
+}
+
+.thesis-disp .others {
+    width: 40%;
+}
+
+.other-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.other-card img {
+    width: 35%;
+}
+
+.other-card .other-text {
+    width: 65%;
+}
+
+.other-text h3 {
+    padding-bottom: 16px;
+}
