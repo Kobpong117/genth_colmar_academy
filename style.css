@@ -73,11 +73,11 @@ html, body {
 }
 
 .start {
-    max-width: 40%;
+    width: 40%;
 }
 
 .start h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--dark-grey);
     padding-bottom: 1.5rem;
 }
@@ -145,7 +145,7 @@ html, body {
 }
 
 .card-text h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-bottom: 8px;
 }
 
@@ -163,3 +163,51 @@ html, body {
 .info-card.selected {
     background-color: var(--background-grey);
 }
+
+#courses {
+    background-color: #e9ecef;
+}
+
+#courses h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 32px 0;
+    color: var(--dark-grey);
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100%/3 - 32px);
+    background-color: white;
+}
+
+.card .course-img {
+    width: 100%;
+}
+
+.card .course-content {
+    padding: 16px 16px 24px 16px;
+}
+
+.course-content h3 {
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+}
+
+.course-content h4 {
+    color: var(--light-grey);
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+
+.course-content .course-detail {
+    color: var(--light-grey);
+    font-weight: 400;
+}
+
