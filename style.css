@@ -117,7 +117,8 @@ html, body {
 .feat-lg p {
     font-size: 1rem;
     color: rgb(111, 106, 106);
-    padding-bottom: 36px;
+    padding-bottom: 32px;
+    line-height: 22px;
 }
 
 .feat-lg small {
@@ -153,6 +154,7 @@ html, body {
     font-size: 1rem;
     line-height: 24px;
     padding-bottom: 8px;
+    color: rgb(111, 106, 106);
 }
 
 .card-text a {
@@ -242,6 +244,11 @@ html, body {
     padding-bottom: 8px;
 }
 
+.exhibit p {
+    color: rgb(111, 106, 106);
+    line-height: 22px;
+}
+
 .thesis-disp .others {
     width: 40%;
 }
@@ -262,5 +269,26 @@ html, body {
 }
 
 .other-text h3 {
+    font-size: 1.5rem;
     padding-bottom: 16px;
+}
+
+.other-text p {
+    font-size: 1rem;
+    color: rgb(111, 106, 106);
+}
+
+footer {
+    padding: 16px 24px 36px 24px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(111, 106, 106);
+}
+
+.terms {
+    display: flex;
+}
+
+.terms p {
+    padding-left: 16px;
 }
