@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    /* border: 1px solid grey; */
+}
+
+:root {
+    --dark-grey: #343a40;
+    --light-grey: #adb5bd;
+    --background-grey: #dee2e6;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    /* max-width: 90%;
+    margin: 0 auto; */
+}
+
+.container-1 {
+    padding: 32px 24px;
+}
+
+.container-2 {
+    padding: 32px 72px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 24px;
+}
+
+.brand {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.brand p {
+    text-transform: uppercase;
+    color: var(--light-grey);
+    font-weight: bolder;
+}
+
+.brand p span {
+    color: var(--dark-grey);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 16px;
+}
+
+#banner {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    background-color: var(--background-grey);
+}
+
+#banner img {
+    width: 60%;
+}
+
+.start {
+    max-width: 40%;
+}
+
+.start h1 {
+    font-size: 2rem;
+    color: var(--dark-grey);
+    padding-bottom: 1.5rem;
+}
+
+.start p {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.start input {
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: var(--dark-grey);
+    padding-block: 8px;
+    color: white;
+}
+
+#school {
+    display: flex;
+    gap: 24px;
+}
+
+#school .feat-lg {
+    width: 60%;
+}
+
+.feat-lg img {
+    max-width: 100%;
+}
+
+.feat-lg h1 {
+    font-size: 1.8rem;
+    padding-top: 32px;
+    padding-bottom: 24px;;
+}
+
+.feat-lg p {
+    font-size: 1rem;
+    color: rgb(111, 106, 106);
+    padding-bottom: 36px;
+}
+
+.feat-lg small {
+    font-size: 0.8rem;
+}
+
+#school .feat-sm {
+    width: 40%;
+    border-left: .5px solid rgb(204, 199, 199);
+}
+
+.feat-sm .info-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.info-card img {
+    width: 35%;
+}
+
+.info-card .card-text {
+    width: 65%;
+}
+
+.card-text h3 {
+    font-size: 1.3rem;
+    padding-bottom: 8px;
+}
+
+.card-text p {
+    font-size: 1rem;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.card-text a {
+    font-size: 0.9rem;
+    color: #00a8e8;
+}
+
+.info-card.selected {
+    background-color: var(--background-grey);
+}
